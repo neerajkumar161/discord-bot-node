@@ -1,0 +1,20 @@
+{
+  "name": "discord-bot-nodejs",
+  "version": "1.0.0",
+  "description": "https://discordjs.guide/#before-you-begin",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch bot.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": [],
+  "author": "Neeraj Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "engines": {
+    "node": ">= 18.20.1"
+  }
+}
